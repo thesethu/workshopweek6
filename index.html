@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crime in South Wales, September 2025 to September 2026</title>
+  <meta name="description" content="Five maps of police-recorded crime in South Wales between September 2025 and September 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#maps">Skip to the maps</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <p class="period"></p>
+      <h1>Crime in South Wales, mapped</h1>
+      <p class="lead">
+        Five maps built from police-recorded crime reports by Asa, Santiago, Sayan, Sethu and Yara.
+      </p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+
+    <!-- Side navigation: one link per map. Edit the labels to match your final map titles. -->
+    <nav class="map-nav" aria-label="Maps">
+      <p class="nav-title">The five maps</p>
+      <ol>
+        <li><a href="#map-1">All recorded crime</a></li>
+        <li><a href="#map-2">Crime rate per 1,000 people</a></li>
+        <li><a href="#map-3">Violence and sexual offences</a></li>
+        <li><a href="#map-4">Anti-social behaviour</a></li>
+        <li><a href="#map-5">Burglary and vehicle crime</a></li>
+      </ol>
+    </nav>
+
+    <main id="maps">
+
+      <!--
+        HOW TO ADD A MAP
+        1. In Datawrapper, open your published map and click "Embed".
+        2. Copy the "Responsive iframe" code.
+        3. Paste it inside the <div class="map-embed"> of the matching section below,
+           and delete the <div class="placeholder"> block.
+      -->
+
+      <!-- MAP 1 -->
+      <section class="map-section" id="map-1" aria-labelledby="map-1-title">
+        <h2 id="map-1-title">All recorded crime</h2>
+        <p class="map-desc">
+          Total police-recorded crimes in each area between September 2025 and September 2026.
+          Darker areas have more recorded crimes.
+        </p>
+        <div class="map-embed">
+          <div class="placeholder">
+            <p><strong>Map 1 goes here.</strong></p>
+            <p>Paste your Datawrapper embed code in place of this box.</p>
+          </div>
+          <!-- Example embed code (replace the URL and ID with your own):
+          <iframe title="All recorded crime" aria-label="Map"
+            src="https://datawrapper.dwcdn.net/XXXXX/1/"
+            scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;"
+            height="520" data-external="1"></iframe>
+          -->
+        </div>
+        <p class="map-source">Source: police-recorded crime data, September 2025 to September 2026. Map made with Datawrapper.</p>
+      </section>
+
+      <!-- MAP 2 -->
+      <section class="map-section" id="map-2" aria-labelledby="map-2-title">
+        <h2 id="map-2-title">Crime rate per 1,000 people</h2>
+        <p class="map-desc">
+          Crimes adjusted for population size, so busy cities and smaller towns can be compared fairly.
+        </p>
+        <div class="map-embed">
+          <div class="placeholder">
+            <p><strong>Map 2 goes here.</strong></p>
+            <p>Paste your Datawrapper embed code in place of this box.</p>
+          </div>
+        </div>
+        <p class="map-source">Source: police-recorded crime data, September 2025 to September 2026. Map made with Datawrapper.</p>
+      </section>
+
+      <!-- MAP 3 -->
+      <section class="map-section" id="map-3" aria-labelledby="map-3-title">
+        <h2 id="map-3-title">The most common type of crime reported</h2>
+        <p class="map-desc">
+          Violence and sexual offences were the most common type of crime reported by South Wales Police over the last year.
+        </p>
+        <div class="map-embed">
+          <iframe title="Violence and sexual offences, Sep 25 to Sep 26" aria-label="Choropleth map" id="datawrapper-chart-yx9e0" src="https://datawrapper.dwcdn.net/yx9e0/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="447" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+        </div>
+        <p class="map-source">Source: police-recorded crime data, September 2025 to September 2026. Map made with Datawrapper.</p>
+      </section>
+
+      <!-- MAP 4 -->
+      <section class="map-section" id="map-4" aria-labelledby="map-4-title">
+        <h2 id="map-4-title">Anti-social behaviour</h2>
+        <p class="map-desc">
+          Reports of anti-social behaviour, from noise and nuisance to vandalism and street drinking.
+        </p>
+        <div class="map-embed">
+          <div class="placeholder">
+            <p><strong>Map 4 goes here.</strong></p>
+            <p>Paste your Datawrapper embed code in place of this box.</p>
+          </div>
+        </div>
+        <p class="map-source">Source: police-recorded crime data, September 2025 to September 2026. Map made with Datawrapper.</p>
+      </section>
+
+      <!-- MAP 5 -->
+      <section class="map-section" id="map-5" aria-labelledby="map-5-title">
+        <h2 id="map-5-title">Burglary and vehicle crime</h2>
+        <p class="map-desc">
+          Burglary, theft of vehicles and theft from vehicles, shown together as crimes against property.
+        </p>
+        <div class="map-embed">
+          <div class="placeholder">
+            <p><strong>Map 5 goes here.</strong></p>
+            <p>Paste your Datawrapper embed code in place of this box.</p>
+          </div>
+        </div>
+        <p class="map-source">Source: police-recorded crime data, September 2025 to September 2026. Map made with Datawrapper.</p>
+      </section>
+
+      <section class="notes" aria-labelledby="notes-title">
+        <h2 id="notes-title">About the data</h2>
+        <p>
+          The maps use police-recorded crime reports from September 2025 to September 2026.
+          Recorded crime shows what was reported to and logged by police, so it does not capture
+          crime that went unreported. Areas with more people, shops and nightlife usually record
+          more crime, which is why Map 2 adjusts for population.
+        </p>
+        <p>
+          <!-- Edit this paragraph to describe your dataset: where it was downloaded, the date it was accessed, and how areas were grouped. -->
+          Add your own notes here on where the dataset came from and how you cleaned it.
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Crime in South Wales, September 2025 to September 2026. Maps by Datawrapper.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
